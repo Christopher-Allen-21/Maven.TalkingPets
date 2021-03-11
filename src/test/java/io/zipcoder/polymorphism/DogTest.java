@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class DogTest extends TestCase {
+public class DogTest /*extends TestCase*/ {
 
     @Test
     public void getNameTest(){
@@ -47,5 +47,4 @@ public class DogTest extends TestCase {
 
         Assert.assertEquals(expected,actual);
     }
-
 }

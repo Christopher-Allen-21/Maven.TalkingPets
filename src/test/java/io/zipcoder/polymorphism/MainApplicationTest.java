@@ -19,7 +19,8 @@ public class MainApplicationTest {
         myApp.addPet(bird1);
 
         Pet[] expected = new Pet[]{cat1,dog1,bird1};
-        String actual = myApp.getPets;
+        Object[] actual = myApp.getPets();
+        System.out.println(myApp.getPets());
 
         Assert.assertEquals(expected,actual);
     }

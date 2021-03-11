@@ -1,4 +1,10 @@
 package io.zipcoder.polymorphism;
 
-public class Cat {
+public class Cat extends Pet {
+
+    public Cat(String name) {
+        super(name);
+        speak = "Meow!";
+    }
+
 }

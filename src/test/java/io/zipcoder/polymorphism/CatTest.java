@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class CatTest extends TestCase {
+public class CatTest /*extends TestCase*/ {
     @Test
     public void getNameTest(){
         Cat cat1 = new Cat("Simba");
